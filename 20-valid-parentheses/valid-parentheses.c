@@ -13,7 +13,7 @@ Stack *create_stack(int capacity) {
     if (stack==NULL) {
         return NULL;
     }
-    stack->array2 = malloc(sizeof(char)*(capacity)+1);
+    stack->array2 = malloc(sizeof(char)*(capacity));
     if (stack->array2 == NULL) {
         free(stack);
         return NULL;
