@@ -8,6 +8,7 @@ int lengthOfLastWord(char* s) {
         i--;
     }
 
+    //note: and operator uses short-circuit evaluation, so switching order caused the out of bounds memory error
     while (i >= 0 && s[i] != ' ') {
         length++;
         i--;
