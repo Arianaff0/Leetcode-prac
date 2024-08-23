@@ -4,7 +4,7 @@
 #3. add to the sum_a. print it to check (Repeat for str b) store in total.
 
 # Change from dec to binary
-#4. divide by 2, ans is pow(2, ans), so in str, 
+#4. use bin function, but remove/splice. start from index 2. 
 
 
 class Solution:
